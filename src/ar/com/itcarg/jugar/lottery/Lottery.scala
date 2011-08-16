@@ -16,7 +16,6 @@ class Lottery {
       case _ => List(0 until 50, 50 until 80, 80 until 100)
     }
     
-    properties.toMap
     def choose() = {
         var setIndex = 0
         val props = properties toMap 
